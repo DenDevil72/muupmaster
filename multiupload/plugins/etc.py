@@ -8,12 +8,12 @@ from telethon import events, Button
 from multiupload.fsub import *
 from multiupload import anjana
 
-s = ["CAADBAADxgkAAjQF0VL5yl4Td0utTgI",
-	"CAADBAADoAsAAv3iYFGE3u_w4y_1zgI",
-	"CAADBAADMggAAq0Q0FK1ZIUPLNxGcAI",
-	"CAADBAAD7AoAAr8i2VGALarwosnJIgI",
-	"CAADBAADrQoAAmzO0VFDq1aGz7rGHgI",
-	"CAADBAADbQgAAhI40VH51AABGZuwl74C"]
+s = ["c8jdKxYCIiMmRrbRJZKiXxWFfocYMjv",
+	"c8jdKxYCIiMmRrbRJZKiXxWFfocYMjv",
+	"c8jdKxYCIiMmRrbRJZKiXxWFfocYMjv",
+	"c8jdKxYCIiMmRrbRJZKiXxWFfocYMjv",
+	"c8jdKxYCIiMmRrbRJZKiXxWFfocYMjvI",
+	"c8jdKxYCIiMmRrbRJZKiXxWFfocYMjv"]
 
 @anjana.on(events.NewMessage(pattern='^/start'))
 async def start(event):
